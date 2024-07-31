@@ -1,8 +1,3 @@
-@import url(/TP1/CSS/cards.css);
-@import url(./TP1/CSS/contact.css);
-@import url(./TP1/CSS/galery.css);
-
-
 *{
     padding: 0;
     margin: 0;
@@ -12,7 +7,7 @@
 }
 
 body{
-    background-image: url(TP1/IMG/Fondo.jpg);
+    background-image: url(./TP1/IMG/Fondo.jpg);
     display: flex;
     flex-direction: column;
     flex-grow: 1;
@@ -63,7 +58,7 @@ body{
 /* MAIN */
 
 .main-container{
-    background-image: url(TP1/IMG/banner.jpg);
+    background-image: url(./TP1/IMG/banner.jpg);
     background-repeat: repeat;
     width: 100vw;
     height: 700px;

@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: url(TP1/IMG/Fondo.jpg);
+    background-image: url(../IMG/Fondo.jpg);
     display: flex;
     flex-direction: column;
     flex-grow: 1;
