@@ -58,7 +58,7 @@ body{
 /* MAIN */
 
 .main-container{
-    background-image: url(./TP1/IMG/banner.jpg);
+    background-image: url(/TP1/IMG/banner.jpg);
     background-repeat: repeat;
     width: 100vw;
     height: 700px;

@@ -22,10 +22,10 @@
             </ul>
         </nav>
     </header>
-    <main class="main-container">
+    <main class="main-container" id="main-container">
         <h1>Mejores recomendaciones</h1>
         <p>Te estamos esperando hace tiempo, no pierdas mas tiempo!</p>
-        <div class="cards-container">
+        <div class="cards-container" id="cards-container">
             <div class="cards">
                 <img src="../IMG/medialuna.png" alt="Medialunas">
                 <p>Medialunas</p>
@@ -63,6 +63,33 @@
                 <button>Comprar</button>
             </div>
         </div>
+        <section class="new-cards-container" id="new-cards-container">
+            <h2>Tus nuevos productos</h2>
+            <div class="new-cards-content" id="new-cards-content">
+                
+            </div>
+            <div id="card-form-container" class="card-form-container">   
+                <h3>Crea tus Producto!</h3>
+                <form class="card-form" id="card-form">
+                    <label for="card-title">Nombre del producto: </label>
+                    <input type="text" name="card-title" id="card-title" class="input-cards" minlength="3">
+                    <label for="card-description">Descripcion del producto: </label>
+                    <input type="text" name="card-description" id="card-description" class="input-cards" minlength="3">
+                    <label for="card-price">Precio del producto: </label>
+                    <input type="number" name="card-price" id="card-price" class="input-cards" min="30">
+                    <label for="card-img">URL del producto: </label>
+                    <input type="url" name="card-img" id="card-img" class="input-cards" placeholder="https://picsum.photos/200">
+                    <h3>Personaliza tu producto!</h3>
+                    <div class="inputs-color">
+                        <label for="card-bg-color" class="input-color">Color de fondo: </label>
+                        <input type="color" name="card-bg-color" id="card-bg-color" class="input-color"  value="#ffffff">
+                        <label for="card-border-color" class="input-color">Color del borde: </label>
+                        <input type="color" name="card-border-color" id="card-border-color" class="input-color" value="#000000">
+                    </div>  
+                    <button type="submit" class="button-cards">Añadir Producto</button>
+                </form>
+            </div>  
+        </section>
     </main>
     <footer class="footer">
         <div class="img-container">
@@ -76,6 +103,7 @@
             <a href="#"><i class="fa-brands fa-twitter"></i></a>
         </div>
     </footer>
+    <script src="/TP1/JS/cards.js"></script>
     <script src="https://kit.fontawesome.com/4072f041e7.js" crossorigin="anonymous"></script>
 </body>
 </html> 
